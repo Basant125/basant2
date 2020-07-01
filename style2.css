@@ -1,0 +1,339 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family:  'Oswald', sans-serif;
+   
+}
+
+p{
+    color: #64707b;
+    font-size: 20px;
+    font-weight: 300;
+}
+h3{
+    color: #41464b;
+    text-transform: uppercase;
+}
+/*========================== 
+is a navbar section
+===========================*/
+.navi{
+    background-color: rgba(0,0,0,0.4);
+    
+}
+.navi a{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navi a:hover:not(.brand){
+    color: #34c6d3;
+}
+.nav1 ul li{
+    margin-left: 40px;
+    text-align: center;
+}
+.toggle{
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    border-radius: 0%;
+    height: 40px;
+    width:40px;
+    overflow: hidden;
+    
+}
+ .toggle .icon-bar{
+     font-size: 25px;
+     
+ }
+
+
+
+#container{
+    background-image: url(web3.jpg);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+#main{
+    height:100%;
+    
+}
+#content{
+    width: 100%;
+    height: 100%;
+    display: table;
+  
+}
+#content-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+   
+}
+#h-tag{
+    width: 300px;
+    margin: 10px auto;   
+}
+#h-tag h1{
+    font-size: 60PX;
+    font-weight: 700;
+    border-color:#fff ;
+    color:#e74c3c;
+
+}
+#h-tag h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.button .btn-1{
+    border-width: 2px;
+    border-color:#fff;
+    padding: 12px 26px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 0;
+    text-transform: uppercase;
+    color:#000;
+    transition: all .5s ease;
+    background-color:#34c6d3;
+
+}
+/* is a services section(heading)*/
+.service-content{
+    padding:60px 0px 60px 0px;
+}
+.service-heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    text-transform: uppercase;
+
+}
+.service-bottom-border{
+    width: 30px;
+    height: 3px;
+    background-color:#34c6d3;
+    margin: 0 auto 30px auto;
+    
+}
+/* is a services section(service)*/
+.service-item{
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.service-icon i{
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height:75px;
+    text-align: center;
+}
+.service-item:hover  .service-icon i{
+    color: #fff;
+    background-color: #34c6d3;
+
+}
+.service-tittle{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.sevice-paragraph{
+    margin: 0;
+    padding-left: 80px;
+}
+/*========================== 
+is a About section(content)
+===========================*/
+.about-content{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+.about-content-outer{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.about-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#about .service-heading h1{
+    text-align: left;
+}
+#about .service-bottom-border{
+    margin: 0 0 30px 0;
+}
+#about-paragraph  p{
+    margin-bottom: 30px;
+}
+.btn-blue{
+  color:#34c6d3;
+  border-color: #34c6d3;
+  border-radius: 0%;
+  width: 150px;
+  text-align: center;
+
+}
+.btn-blue:hover, .btn-blue:focus{
+    background-color: #34c6d3;
+    color:#fff;
+}
+#about-bg-parllax{
+    float:right;
+    width: 50%;
+    height: 700px;
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+    background-image: url(web4.jpg);
+    background-attachment: fixed;
+    background-position:right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*========================== 
+is a workout section
+===========================*/
+.row .no-gutter[class*=col-]{
+   padding-left: 0;
+   padding-right: 0;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+}
+.img-wrapper img:hover{
+    transform:scale(1.1);
+    cursor: zoom-in;
+    cursor: pointer;
+}
+/*========================== 
+is a carousel section
+===========================*/
+/*========================== 
+is a Form section
+===========================*/
+.form-box{
+    width: 50%;
+    height: 500px;
+
+}
+.form-box label{
+    font-size: 20px;
+    color: #41464b;
+    font-weight: 700;
+
+}
+.form-box input[type=text]{
+    width:250px;
+    border-color: #34c6d3;
+    height: 40px;
+}
+.form-box input[type=text]:hover, .form-box input[type=text]:focus{
+    background-color: #34c6d3;
+    color: #fff;
+    border:none;
+    
+}
+/*========================== 
+is a FOrm  rigt section
+===========================*/
+.stiker-box{
+    width:100%;
+    height: 400px;
+   
+    
+}
+.sticker-box-inner{
+    width: 100%;
+    height: 100%;
+    background-image: url(FR.jpg);
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.box-item{
+    width: 60px;
+    height:50px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 4px;
+   
+  
+   
+}
+
+.box-item .fa{
+   font-size: 30px;
+   color: #34c6d3;
+
+
+}
+.box-item:hover{
+  
+  transform: translateY(2px);
+   
+}
+
+
+
+/*========================== 
+is a footer  section
+===========================*/
+.footer{
+    background-color: #34c6d3;
+    width: 100%;
+    height: 200px;
+  
+}
+.Adress {
+    text-align: center;
+   
+    
+}
+.Adress p i{
+    padding-right:10px ;
+    color: #fff;
+    font-size: 35px;
+}
+.Adress p{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+.adress1 h2 i{
+    padding-right: 20px;
+}
+.adress1 h2{
+    font-size: 15px;
+    font-weight: 800;
+
+}
